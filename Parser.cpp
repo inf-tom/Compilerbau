@@ -22,6 +22,7 @@ std::ostream& operator<<(std::ostream& os, const Token& t)
             break;
         case Token::Type::op:
             os << "Operator: " << t.value;
+            break;
         default:
             break;
     }
